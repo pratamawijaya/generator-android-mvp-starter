@@ -8,12 +8,6 @@ android {
     compileSdkVersion 26
     buildToolsVersion '26.0.0'
 
-    dexOptions {
-        maxProcessCount 4
-        preDexLibraries false
-        javaMaxHeapSize "8g"
-    }
-
     defaultConfig {
 
         applicationId "<%= appPackage %>"
